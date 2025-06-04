@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorpion - Mortal Kombat</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://avatars.mds.yandex.net/i?id=8b1fe095cc728d46bc6b541f5186c343_l-8474952-images-thumbs&n=13');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        header {
+            background-color: rgba(200, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #ffcc00;
+        }
+        
+        h1 {
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000;
+            margin: 0;
+            color: #ffcc00;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ffcc00;
+            border-radius: 10px;
+        }
+        
+        .character-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .character-image {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .character-image img {
+            width: 100%;
+            border: 2px solid #ffcc00;
+            border-radius: 5px;
+        }
+        
+        .character-bio {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        h2 {
+            color: #ff3333;
+            border-bottom: 1px solid #ffcc00;
+            padding-bottom: 5px;
+        }
+        
+        .abilities {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .ability {
+            background-color: rgba(200, 0, 0, 0.3);
+            padding: 10px;
+            border-left: 3px solid #ffcc00;
+        }
+        
+        .quote {
+            font-style: italic;
+            font-size: 1.2em;
+            text-align: center;
+            margin: 30px 0;
+            color: #ffcc00;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(200, 0, 0, 0.8);
+            margin-top: 30px;
+            border-top: 3px solid #ffcc00;
+        }
+        
+        @media (max-width: 600px) {
+            .character-info {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SCORPION</h1>
+        <p>Легендарный ниндзя из Mortal Kombat</p>
+    </header>
+    
+    <div class="container">
+        <div class="character-info">
+            <div class="character-image">
+                <img src="https://avatars.mds.yandex.net/i?id=ea21021c242fb8a0c7a2b9c375718beb_l-4809743-images-thumbs&n=13" alt="Scorpion from Mortal Kombat">
+            </div>
+            <div class="character-bio">
+                <h2>Биография</h2>
+                <p>Скорпион (настоящее имя - Ханзо Хасаши) - один из самых узнаваемых персонажей серии Mortal Kombat. Ниндя-призрак, мстящий за смерть своей семьи и клана. Его отличительные черты - жёлтый костюм, маска с изображением черепа и способность стрелять копьём из рук.</p>
+                <p>После убийства его и его семьи Саб-Зиро, Ханзо был воскрешён Квен Чи как ниндзя-призрак с единственной целью - месть. Его знаменитая фраза "Come here!" стала визитной карточкой персонажа.</p>
+                
+                <div class="quote">
+                    "GET OVER HERE!"
+                </div>
+            </div>
+        </div>
+        
+        <h2>Способности</h2>
+        <div class="abilities">
+            <div class="ability">
+                <h3>Копьё из ада</h3>
+                <p>Выстреливает горящим копьём, которое притягивает противника к Скорпиону</p>
+            </div>
+            <div class="ability">
+                <h3>Телепортация</h3>
+                <p>Мгновенно перемещается сквозь пространство для атаки</p>
+            </div>
+            <div class="ability">
+                <h3>Огненное дыхание</h3>
+                <p>Выдыхает пламя из черепа</p>
+            </div>
+            <div class="ability">
+                <h3>Адское пламя</h3>
+                <p>Призывает огненный столб из-под земли</p>
+            </div>
+            <div class="ability">
+                <h3>Ниндзя-призрак</h3>
+                <p>Может становиться невидимым и неуязвимым</p>
+            </div>
+            <div class="ability">
+                <h3>Фаталити</h3>
+                <p>Снимает маску, обнажая череп, и сжигает противника</p>
+            </div>
+        </div>
+        
+        <h2>Появления</h2>
+        <p>Скорпион появлялся во всех основных играх серии Mortal Kombat, начиная с первой части в 1992 году. Также он фигурирует в фильмах, комиксах и других медиа по вселенной Mortal Kombat.</p>
+    </div>
+    
+    <footer>
+        <p>© 2025 Mortal Kombat Fan Page | Scorpion - Hanzo Hasashi</p>
+    </footer>
+</body>
+</html>
